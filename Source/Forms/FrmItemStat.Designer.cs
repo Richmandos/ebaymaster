@@ -28,24 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmItemStat));
             this.pagedDgvItem = new EbayMaster.PagedDataGridView();
             this.SuspendLayout();
             // 
             // pagedDgvItem
             // 
-            this.pagedDgvItem.Location = new System.Drawing.Point(22, 2);
+            resources.ApplyResources(this.pagedDgvItem, "pagedDgvItem");
             this.pagedDgvItem.Name = "pagedDgvItem";
-            this.pagedDgvItem.Size = new System.Drawing.Size(776, 455);
-            this.pagedDgvItem.TabIndex = 0;
+            this.pagedDgvItem.Load += new System.EventHandler(this.pagedDgvItem_Load);
             // 
             // FrmItemStat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(810, 469);
             this.Controls.Add(this.pagedDgvItem);
             this.Name = "FrmItemStat";
-            this.Text = "所有商品";
             this.Load += new System.EventHandler(this.FrmItemStat_Load);
             this.ResumeLayout(false);
 

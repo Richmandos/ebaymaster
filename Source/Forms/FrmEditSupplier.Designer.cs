@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEditSupplier));
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxSupplierName = new System.Windows.Forms.TextBox();
             this.textBoxSupplierTel = new System.Windows.Forms.TextBox();
@@ -46,125 +47,80 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 40);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "供应商名称";
             // 
             // textBoxSupplierName
             // 
-            this.textBoxSupplierName.Location = new System.Drawing.Point(124, 37);
+            resources.ApplyResources(this.textBoxSupplierName, "textBoxSupplierName");
             this.textBoxSupplierName.Name = "textBoxSupplierName";
-            this.textBoxSupplierName.Size = new System.Drawing.Size(399, 21);
-            this.textBoxSupplierName.TabIndex = 1;
             // 
             // textBoxSupplierTel
             // 
-            this.textBoxSupplierTel.Location = new System.Drawing.Point(124, 79);
+            resources.ApplyResources(this.textBoxSupplierTel, "textBoxSupplierTel");
             this.textBoxSupplierTel.Name = "textBoxSupplierTel";
-            this.textBoxSupplierTel.Size = new System.Drawing.Size(399, 21);
-            this.textBoxSupplierTel.TabIndex = 3;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 82);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 12);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "电话";
             // 
             // textBoxSupplierLink1
             // 
-            this.textBoxSupplierLink1.Location = new System.Drawing.Point(124, 122);
+            resources.ApplyResources(this.textBoxSupplierLink1, "textBoxSupplierLink1");
             this.textBoxSupplierLink1.Name = "textBoxSupplierLink1";
-            this.textBoxSupplierLink1.Size = new System.Drawing.Size(399, 21);
-            this.textBoxSupplierLink1.TabIndex = 5;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(51, 125);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 12);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "网址1";
             // 
             // textBoxSupplierLink2
             // 
-            this.textBoxSupplierLink2.Location = new System.Drawing.Point(124, 161);
+            resources.ApplyResources(this.textBoxSupplierLink2, "textBoxSupplierLink2");
             this.textBoxSupplierLink2.Name = "textBoxSupplierLink2";
-            this.textBoxSupplierLink2.Size = new System.Drawing.Size(399, 21);
-            this.textBoxSupplierLink2.TabIndex = 7;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(51, 164);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 12);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "网址2";
             // 
             // textBoxSupplierLink3
             // 
-            this.textBoxSupplierLink3.Location = new System.Drawing.Point(124, 203);
+            resources.ApplyResources(this.textBoxSupplierLink3, "textBoxSupplierLink3");
             this.textBoxSupplierLink3.Name = "textBoxSupplierLink3";
-            this.textBoxSupplierLink3.Size = new System.Drawing.Size(399, 21);
-            this.textBoxSupplierLink3.TabIndex = 9;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(51, 206);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 12);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "网址3";
             // 
             // textBoxSupplierComment
             // 
-            this.textBoxSupplierComment.Location = new System.Drawing.Point(124, 241);
-            this.textBoxSupplierComment.Multiline = true;
+            resources.ApplyResources(this.textBoxSupplierComment, "textBoxSupplierComment");
             this.textBoxSupplierComment.Name = "textBoxSupplierComment";
-            this.textBoxSupplierComment.Size = new System.Drawing.Size(399, 55);
-            this.textBoxSupplierComment.TabIndex = 11;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(51, 244);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 12);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "备注";
             // 
             // buttonFinishEditingSupplier
             // 
-            this.buttonFinishEditingSupplier.Location = new System.Drawing.Point(255, 316);
+            resources.ApplyResources(this.buttonFinishEditingSupplier, "buttonFinishEditingSupplier");
             this.buttonFinishEditingSupplier.Name = "buttonFinishEditingSupplier";
-            this.buttonFinishEditingSupplier.Size = new System.Drawing.Size(75, 23);
-            this.buttonFinishEditingSupplier.TabIndex = 12;
-            this.buttonFinishEditingSupplier.Text = "完成";
             this.buttonFinishEditingSupplier.UseVisualStyleBackColor = true;
             this.buttonFinishEditingSupplier.Click += new System.EventHandler(this.buttonFinishEditingSupplier_Click);
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(529, 40);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 12);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "(必填)";
             // 
             // FrmEditSupplier
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(583, 351);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.buttonFinishEditingSupplier);
             this.Controls.Add(this.textBoxSupplierComment);
@@ -180,7 +136,6 @@
             this.Controls.Add(this.textBoxSupplierName);
             this.Controls.Add(this.label1);
             this.Name = "FrmEditSupplier";
-            this.Text = "创建供应商";
             this.ResumeLayout(false);
             this.PerformLayout();
 

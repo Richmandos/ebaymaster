@@ -117,19 +117,1807 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonExportEbayCVS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 281</value>
+  </data>
+  <data name="buttonExportEbayCVS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonExportEbayCVS.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="buttonExportEbayCVS.Text" xml:space="preserve">
+    <value>Export to csv</value>
+  </data>
+  <data name="&gt;&gt;buttonExportEbayCVS.Name" xml:space="preserve">
+    <value>buttonExportEbayCVS</value>
+  </data>
+  <data name="&gt;&gt;buttonExportEbayCVS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonExportEbayCVS.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonExportEbayCVS.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonExportSelectedToExcel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 224</value>
+  </data>
+  <data name="buttonExportSelectedToExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 29</value>
+  </data>
+  <data name="buttonExportSelectedToExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonExportSelectedToExcel.Text" xml:space="preserve">
+    <value>Export to Excel </value>
+  </data>
+  <data name="&gt;&gt;buttonExportSelectedToExcel.Name" xml:space="preserve">
+    <value>buttonExportSelectedToExcel</value>
+  </data>
+  <data name="&gt;&gt;buttonExportSelectedToExcel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonExportSelectedToExcel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonExportSelectedToExcel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonSyncEbayData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 18</value>
+  </data>
+  <data name="buttonSyncEbayData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 29</value>
+  </data>
+  <data name="buttonSyncEbayData.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonSyncEbayData.Text" xml:space="preserve">
+    <value>Get Ebay Sales</value>
+  </data>
+  <data name="&gt;&gt;buttonSyncEbayData.Name" xml:space="preserve">
+    <value>buttonSyncEbayData</value>
+  </data>
+  <data name="&gt;&gt;buttonSyncEbayData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSyncEbayData.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonSyncEbayData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dateTimePickerEndTime.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd HH:mm:ss</value>
+  </data>
+  <data name="dateTimePickerEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 133</value>
+  </data>
+  <data name="dateTimePickerEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 20</value>
+  </data>
+  <data name="dateTimePickerEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerEndTime.Name" xml:space="preserve">
+    <value>dateTimePickerEndTime</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerEndTime.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerEndTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 112</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>End Time:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 61</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Start Time:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dateTimePickerStartTime.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd HH:mm:ss</value>
+  </data>
+  <data name="dateTimePickerStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 80</value>
+  </data>
+  <data name="dateTimePickerStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 20</value>
+  </data>
+  <data name="dateTimePickerStartTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerStartTime.Name" xml:space="preserve">
+    <value>dateTimePickerStartTime</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerStartTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerStartTime.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePickerStartTime.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 44</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 647</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="radioButtonDeliveredOrders.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonDeliveredOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>858, 20</value>
+  </data>
+  <data name="radioButtonDeliveredOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="radioButtonDeliveredOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="radioButtonDeliveredOrders.Text" xml:space="preserve">
+    <value>Shipped</value>
+  </data>
+  <data name="&gt;&gt;radioButtonDeliveredOrders.Name" xml:space="preserve">
+    <value>radioButtonDeliveredOrders</value>
+  </data>
+  <data name="&gt;&gt;radioButtonDeliveredOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonDeliveredOrders.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;radioButtonDeliveredOrders.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonPendingOrders.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonPendingOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>761, 20</value>
+  </data>
+  <data name="radioButtonPendingOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="radioButtonPendingOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="radioButtonPendingOrders.Text" xml:space="preserve">
+    <value>Unshipped</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPendingOrders.Name" xml:space="preserve">
+    <value>radioButtonPendingOrders</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPendingOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPendingOrders.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPendingOrders.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonOrderLastPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 559</value>
+  </data>
+  <data name="buttonOrderLastPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonOrderLastPage.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="buttonOrderLastPage.Text" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderLastPage.Name" xml:space="preserve">
+    <value>buttonOrderLastPage</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderLastPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderLastPage.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderLastPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonOrderFirstPage.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonOrderFirstPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 559</value>
+  </data>
+  <data name="buttonOrderFirstPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonOrderFirstPage.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="buttonOrderFirstPage.Text" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderFirstPage.Name" xml:space="preserve">
+    <value>buttonOrderFirstPage</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderFirstPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderFirstPage.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderFirstPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelOrderPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelOrderPage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 9pt, style=Bold</value>
+  </data>
+  <data name="labelOrderPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 564</value>
+  </data>
+  <data name="labelOrderPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 12</value>
+  </data>
+  <data name="labelOrderPage.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="labelOrderPage.Text" xml:space="preserve">
+    <value>labelOrderPage</value>
+  </data>
+  <data name="&gt;&gt;labelOrderPage.Name" xml:space="preserve">
+    <value>labelOrderPage</value>
+  </data>
+  <data name="&gt;&gt;labelOrderPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelOrderPage.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;labelOrderPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonOrderPrevPage.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonOrderPrevPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 559</value>
+  </data>
+  <data name="buttonOrderPrevPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonOrderPrevPage.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="buttonOrderPrevPage.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderPrevPage.Name" xml:space="preserve">
+    <value>buttonOrderPrevPage</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderPrevPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderPrevPage.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderPrevPage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonOrderNextPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>616, 559</value>
+  </data>
+  <data name="buttonOrderNextPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonOrderNextPage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="buttonOrderNextPage.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderNextPage.Name" xml:space="preserve">
+    <value>buttonOrderNextPage</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderNextPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderNextPage.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;buttonOrderNextPage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 15</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 15</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 15</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Shipped</value>
+  </data>
+  <data name="label9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 15</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 15</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Unpaid</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 15</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Unshipped</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 7</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>709, 35</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dataGridViewAllOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 48</value>
+  </data>
+  <data name="dataGridViewAllOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1069, 505</value>
+  </data>
+  <data name="dataGridViewAllOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewAllOrders.Name" xml:space="preserve">
+    <value>dataGridViewAllOrders</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewAllOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewAllOrders.Parent" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewAllOrders.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tabPageOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageOrder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1106, 625</value>
+  </data>
+  <data name="tabPageOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageOrder.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="&gt;&gt;tabPageOrder.Name" xml:space="preserve">
+    <value>tabPageOrder</value>
+  </data>
+  <data name="&gt;&gt;tabPageOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageOrder.Parent" xml:space="preserve">
+    <value>tabControlEbayMaster</value>
+  </data>
+  <data name="&gt;&gt;tabPageOrder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonListingLastPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>689, 541</value>
+  </data>
+  <data name="buttonListingLastPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonListingLastPage.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="buttonListingLastPage.Text" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="&gt;&gt;buttonListingLastPage.Name" xml:space="preserve">
+    <value>buttonListingLastPage</value>
+  </data>
+  <data name="&gt;&gt;buttonListingLastPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonListingLastPage.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonListingLastPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonListingFirstPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 541</value>
+  </data>
+  <data name="buttonListingFirstPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonListingFirstPage.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="buttonListingFirstPage.Text" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="&gt;&gt;buttonListingFirstPage.Name" xml:space="preserve">
+    <value>buttonListingFirstPage</value>
+  </data>
+  <data name="&gt;&gt;buttonListingFirstPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonListingFirstPage.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonListingFirstPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelListingPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelListingPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 548</value>
+  </data>
+  <data name="labelListingPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="labelListingPage.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelListingPage.Text" xml:space="preserve">
+    <value>labelListingPage</value>
+  </data>
+  <data name="&gt;&gt;labelListingPage.Name" xml:space="preserve">
+    <value>labelListingPage</value>
+  </data>
+  <data name="&gt;&gt;labelListingPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelListingPage.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelListingPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonListingPrevPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 541</value>
+  </data>
+  <data name="buttonListingPrevPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonListingPrevPage.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="buttonListingPrevPage.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="&gt;&gt;buttonListingPrevPage.Name" xml:space="preserve">
+    <value>buttonListingPrevPage</value>
+  </data>
+  <data name="&gt;&gt;buttonListingPrevPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonListingPrevPage.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonListingPrevPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonListingNextPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 541</value>
+  </data>
+  <data name="buttonListingNextPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonListingNextPage.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="buttonListingNextPage.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="&gt;&gt;buttonListingNextPage.Name" xml:space="preserve">
+    <value>buttonListingNextPage</value>
+  </data>
+  <data name="&gt;&gt;buttonListingNextPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonListingNextPage.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonListingNextPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dataGridViewActiveListing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 21</value>
+  </data>
+  <data name="dataGridViewActiveListing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1065, 514</value>
+  </data>
+  <data name="dataGridViewActiveListing.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewActiveListing.Name" xml:space="preserve">
+    <value>dataGridViewActiveListing</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewActiveListing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewActiveListing.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewActiveListing.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 568</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>sold merchandise</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabPageSelling</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageSelling.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageSelling.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageSelling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1106, 625</value>
+  </data>
+  <data name="tabPageSelling.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageSelling.Text" xml:space="preserve">
+    <value>Sales Overview</value>
+  </data>
+  <data name="&gt;&gt;tabPageSelling.Name" xml:space="preserve">
+    <value>tabPageSelling</value>
+  </data>
+  <data name="&gt;&gt;tabPageSelling.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageSelling.Parent" xml:space="preserve">
+    <value>tabControlEbayMaster</value>
+  </data>
+  <data name="&gt;&gt;tabPageSelling.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pagedDgvMessages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 27</value>
+  </data>
+  <data name="pagedDgvMessages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>543, 533</value>
+  </data>
+  <data name="pagedDgvMessages.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pagedDgvMessages.Name" xml:space="preserve">
+    <value>pagedDgvMessages</value>
+  </data>
+  <data name="&gt;&gt;pagedDgvMessages.Type" xml:space="preserve">
+    <value>EbayMaster.PagedDataGridView, EbayMaster, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagedDgvMessages.Parent" xml:space="preserve">
+    <value>tabPageMessages</value>
+  </data>
+  <data name="&gt;&gt;pagedDgvMessages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageAllMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageAllMessage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageAllMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 511</value>
+  </data>
+  <data name="tabPageAllMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPageAllMessage.Name" xml:space="preserve">
+    <value>tabPageAllMessage</value>
+  </data>
+  <data name="&gt;&gt;tabPageAllMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageAllMessage.Parent" xml:space="preserve">
+    <value>tabControlMessage</value>
+  </data>
+  <data name="&gt;&gt;tabPageAllMessage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControlMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 27</value>
+  </data>
+  <data name="tabControlMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>532, 537</value>
+  </data>
+  <data name="tabControlMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabControlMessage.Name" xml:space="preserve">
+    <value>tabControlMessage</value>
+  </data>
+  <data name="&gt;&gt;tabControlMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlMessage.Parent" xml:space="preserve">
+    <value>tabPageMessages</value>
+  </data>
+  <data name="&gt;&gt;tabControlMessage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPageMessages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageMessages.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageMessages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1106, 625</value>
+  </data>
+  <data name="tabPageMessages.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPageMessages.Text" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="&gt;&gt;tabPageMessages.Name" xml:space="preserve">
+    <value>tabPageMessages</value>
+  </data>
+  <data name="&gt;&gt;tabPageMessages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageMessages.Parent" xml:space="preserve">
+    <value>tabControlEbayMaster</value>
+  </data>
+  <data name="&gt;&gt;tabPageMessages.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonPostSaleLastPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 559</value>
+  </data>
+  <data name="buttonPostSaleLastPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonPostSaleLastPage.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="buttonPostSaleLastPage.Text" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleLastPage.Name" xml:space="preserve">
+    <value>buttonPostSaleLastPage</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleLastPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleLastPage.Parent" xml:space="preserve">
+    <value>tabPagePostSale</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleLastPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonPostSaleFirstPage.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonPostSaleFirstPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 559</value>
+  </data>
+  <data name="buttonPostSaleFirstPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonPostSaleFirstPage.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="buttonPostSaleFirstPage.Text" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleFirstPage.Name" xml:space="preserve">
+    <value>buttonPostSaleFirstPage</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleFirstPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleFirstPage.Parent" xml:space="preserve">
+    <value>tabPagePostSale</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleFirstPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelPostSalePage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPostSalePage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>SimSun, 9pt, style=Bold</value>
+  </data>
+  <data name="labelPostSalePage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 564</value>
+  </data>
+  <data name="labelPostSalePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 12</value>
+  </data>
+  <data name="labelPostSalePage.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="labelPostSalePage.Text" xml:space="preserve">
+    <value>labelPostSalePage</value>
+  </data>
+  <data name="&gt;&gt;labelPostSalePage.Name" xml:space="preserve">
+    <value>labelPostSalePage</value>
+  </data>
+  <data name="&gt;&gt;labelPostSalePage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPostSalePage.Parent" xml:space="preserve">
+    <value>tabPagePostSale</value>
+  </data>
+  <data name="&gt;&gt;labelPostSalePage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonPostSalePrevPage.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonPostSalePrevPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>375, 559</value>
+  </data>
+  <data name="buttonPostSalePrevPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonPostSalePrevPage.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="buttonPostSalePrevPage.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSalePrevPage.Name" xml:space="preserve">
+    <value>buttonPostSalePrevPage</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSalePrevPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSalePrevPage.Parent" xml:space="preserve">
+    <value>tabPagePostSale</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSalePrevPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonPostSaleNextPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 559</value>
+  </data>
+  <data name="buttonPostSaleNextPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="buttonPostSaleNextPage.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="buttonPostSaleNextPage.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleNextPage.Name" xml:space="preserve">
+    <value>buttonPostSaleNextPage</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleNextPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleNextPage.Parent" xml:space="preserve">
+    <value>tabPagePostSale</value>
+  </data>
+  <data name="&gt;&gt;buttonPostSaleNextPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dataGridViewPostSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-121, -3</value>
+  </data>
+  <data name="dataGridViewPostSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1069, 505</value>
+  </data>
+  <data name="dataGridViewPostSale.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPostSale.Name" xml:space="preserve">
+    <value>dataGridViewPostSale</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPostSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPostSale.Parent" xml:space="preserve">
+    <value>tabPagePostSale</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPostSale.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 15</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 15</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Massages</value>
+  </data>
+  <data name="label17.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 15</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 15</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+  <data name="label19.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 15</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 15</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Has Asked</value>
+  </data>
+  <data name="label21.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 7</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 35</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>tabPagePostSale</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabPagePostSale.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPagePostSale.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPagePostSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1106, 625</value>
+  </data>
+  <data name="tabPagePostSale.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPagePostSale.Text" xml:space="preserve">
+    <value>Sales Tracking</value>
+  </data>
+  <data name="&gt;&gt;tabPagePostSale.Name" xml:space="preserve">
+    <value>tabPagePostSale</value>
+  </data>
+  <data name="&gt;&gt;tabPagePostSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPagePostSale.Parent" xml:space="preserve">
+    <value>tabControlEbayMaster</value>
+  </data>
+  <data name="&gt;&gt;tabPagePostSale.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabControlEbayMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 44</value>
+  </data>
+  <data name="tabControlEbayMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1114, 651</value>
+  </data>
+  <data name="tabControlEbayMaster.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tabControlEbayMaster.Name" xml:space="preserve">
+    <value>tabControlEbayMaster</value>
+  </data>
+  <data name="&gt;&gt;tabControlEbayMaster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlEbayMaster.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControlEbayMaster.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <metadata name="contextMenuStripPostSale.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>624, 24</value>
   </metadata>
+  <data name="ToolStripMenuItemViewMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewMessage.Text" xml:space="preserve">
+    <value>查看消息</value>
+  </data>
+  <data name="ToolStripMenuItemSendMessageToBuyer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="ToolStripMenuItemSendMessageToBuyer.Text" xml:space="preserve">
+    <value>给买家写信</value>
+  </data>
+  <data name="contextMenuStripPostSale.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 48</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripPostSale.Name" xml:space="preserve">
+    <value>contextMenuStripPostSale</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripPostSale.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <metadata name="menuStripEbayMaster.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 23</value>
   </metadata>
+  <data name="ToolStripMenuItemCreateItemStockInNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="ToolStripMenuItemCreateItemStockInNote.Text" xml:space="preserve">
+    <value>New Sale</value>
+  </data>
+  <data name="ToolStripMenuItemViewItemStockInNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewItemStockInNote.Text" xml:space="preserve">
+    <value>View Sales</value>
+  </data>
+  <data name="ToolStripMenuItemCreateDeliveryNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="ToolStripMenuItemCreateDeliveryNote.Text" xml:space="preserve">
+    <value>New Invoice</value>
+  </data>
+  <data name="ToolStripMenuItemViewDeliveryNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewDeliveryNote.Text" xml:space="preserve">
+    <value>View Invoices</value>
+  </data>
+  <data name="ToolStripMenuItemSourcingAndDispatching.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="ToolStripMenuItemSourcingAndDispatching.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="ToolStripMenuItemCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="ToolStripMenuItemCategory.Text" xml:space="preserve">
+    <value>New Category</value>
+  </data>
+  <data name="ToolStripMenuItemItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="ToolStripMenuItemItem.Text" xml:space="preserve">
+    <value>View Categories</value>
+  </data>
+  <data name="ToolStripMenuItemGroupItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="ToolStripMenuItemGroupItem.Text" xml:space="preserve">
+    <value>New Product</value>
+  </data>
+  <data name="ToolStripMenuItemGroupItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ToolStripMenuItemViewItemStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewItemStat.Text" xml:space="preserve">
+    <value>View Products</value>
+  </data>
+  <data name="ToolStripMenuItemCreateSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="ToolStripMenuItemCreateSupplier.Text" xml:space="preserve">
+    <value>New Supplier</value>
+  </data>
+  <data name="ToolStripMenuItemViewSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewSupplier.Text" xml:space="preserve">
+    <value>View Suppliers</value>
+  </data>
+  <data name="ToolStripMenuItemCreateSourcingNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="ToolStripMenuItemCreateSourcingNote.Text" xml:space="preserve">
+    <value>NewPurchase Order</value>
+  </data>
+  <data name="ToolStripMenuItemViewSourcingNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewSourcingNote.Text" xml:space="preserve">
+    <value>View Purchase Orders</value>
+  </data>
+  <data name="ToolStripMenuItemItemMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="ToolStripMenuItemItemMenu.Text" xml:space="preserve">
+    <value>Stock Managment</value>
+  </data>
+  <data name="ToolStripMenuItemDBConnSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="ToolStripMenuItemDBConnSettings.Text" xml:space="preserve">
+    <value>Database Settings</value>
+  </data>
+  <data name="ToolStripMenuItemAccountSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="ToolStripMenuItemAccountSettings.Text" xml:space="preserve">
+    <value>Ebay Account Settings</value>
+  </data>
+  <data name="ToolStripMenuItemMessageTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="ToolStripMenuItemMessageTemplate.Text" xml:space="preserve">
+    <value>Message Templates</value>
+  </data>
+  <data name="ToolStripMenuItemSystemSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="ToolStripMenuItemSystemSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ToolStripMenuItemEbayFees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="ToolStripMenuItemEbayFees.Text" xml:space="preserve">
+    <value>Ebay Rates</value>
+  </data>
+  <data name="工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="工具ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="ToolStripMenuItemAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="ToolStripMenuItemAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="帮助ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="帮助ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="menuStripEbayMaster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStripEbayMaster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1359, 24</value>
+  </data>
+  <data name="menuStripEbayMaster.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="menuStripEbayMaster.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStripEbayMaster.Name" xml:space="preserve">
+    <value>menuStripEbayMaster</value>
+  </data>
+  <data name="&gt;&gt;menuStripEbayMaster.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStripEbayMaster.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStripEbayMaster.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <metadata name="contextMenuStripMessage.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>199, 23</value>
   </metadata>
+  <data name="toolStripMenuItemReplyMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="toolStripMenuItemReplyMessage.Text" xml:space="preserve">
+    <value>给买家回信</value>
+  </data>
+  <data name="contextMenuStripMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripMessage.Name" xml:space="preserve">
+    <value>contextMenuStripMessage</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <metadata name="contextMenuStripTransaction.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>409, 23</value>
+  </metadata>
+  <data name="ToolStripMenuItemViewTransactionDetail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewTransactionDetail.Text" xml:space="preserve">
+    <value>查看详情</value>
+  </data>
+  <data name="ToolStripMenuItemViewTransactionMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewTransactionMessage.Text" xml:space="preserve">
+    <value>查看消息</value>
+  </data>
+  <data name="ToolStripMenuItemSendMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemSendMessage.Text" xml:space="preserve">
+    <value>发消息</value>
+  </data>
+  <data name="ToolStripMenuItemAddRelationToItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemAddRelationToItem.Text" xml:space="preserve">
+    <value>关联商品</value>
+  </data>
+  <data name="ToolStripMenuItemViewItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemViewItem.Text" xml:space="preserve">
+    <value>查看商品</value>
+  </data>
+  <data name="ToolStripMenuItemSelectShippingService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemSelectShippingService.Text" xml:space="preserve">
+    <value>选择物流方式</value>
+  </data>
+  <data name="ToolStripMenuItemMarkAsShipped.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemMarkAsShipped.Text" xml:space="preserve">
+    <value>标记已发货</value>
+  </data>
+  <data name="ToolStripMenuItemUploadTrackingNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemUploadTrackingNum.Text" xml:space="preserve">
+    <value>上传跟踪号</value>
+  </data>
+  <data name="ToolStripMenuItemLeaveFeedback.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemLeaveFeedback.Text" xml:space="preserve">
+    <value>留好评</value>
+  </data>
+  <data name="ToolStripMenuItemSetShippingCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemSetShippingCost.Text" xml:space="preserve">
+    <value>设置运费</value>
+  </data>
+  <data name="ToolStripMenuItemCreateDeliveryNoteFromOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemCreateDeliveryNoteFromOrders.Text" xml:space="preserve">
+    <value>创建发货单</value>
+  </data>
+  <data name="ToolStripMenuItemMergeOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="ToolStripMenuItemMergeOrders.Text" xml:space="preserve">
+    <value>合并订单</value>
+  </data>
+  <data name="ToolStripMenuItemMergeOrders.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="contextMenuStripTransaction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 268</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripTransaction.Name" xml:space="preserve">
+    <value>contextMenuStripTransaction</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripTransaction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>64</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1359, 709</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EbayMaster v1.0</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewMessage.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewMessage</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSendMessageToBuyer.Name" xml:space="preserve">
+    <value>ToolStripMenuItemSendMessageToBuyer</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSendMessageToBuyer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemItemMenu.Name" xml:space="preserve">
+    <value>ToolStripMenuItemItemMenu</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemItemMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCategory.Name" xml:space="preserve">
+    <value>ToolStripMenuItemCategory</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemItem.Name" xml:space="preserve">
+    <value>ToolStripMenuItemItem</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemGroupItem.Name" xml:space="preserve">
+    <value>ToolStripMenuItemGroupItem</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemGroupItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewItemStat.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewItemStat</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewItemStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateSupplier.Name" xml:space="preserve">
+    <value>ToolStripMenuItemCreateSupplier</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewSupplier.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewSupplier</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewSupplier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateSourcingNote.Name" xml:space="preserve">
+    <value>ToolStripMenuItemCreateSourcingNote</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateSourcingNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewSourcingNote.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewSourcingNote</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewSourcingNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSourcingAndDispatching.Name" xml:space="preserve">
+    <value>ToolStripMenuItemSourcingAndDispatching</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSourcingAndDispatching.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateItemStockInNote.Name" xml:space="preserve">
+    <value>ToolStripMenuItemCreateItemStockInNote</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateItemStockInNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewItemStockInNote.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewItemStockInNote</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewItemStockInNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateDeliveryNote.Name" xml:space="preserve">
+    <value>ToolStripMenuItemCreateDeliveryNote</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateDeliveryNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewDeliveryNote.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewDeliveryNote</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewDeliveryNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSystemSettings.Name" xml:space="preserve">
+    <value>ToolStripMenuItemSystemSettings</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSystemSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemDBConnSettings.Name" xml:space="preserve">
+    <value>ToolStripMenuItemDBConnSettings</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemDBConnSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemAccountSettings.Name" xml:space="preserve">
+    <value>ToolStripMenuItemAccountSettings</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemAccountSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemMessageTemplate.Name" xml:space="preserve">
+    <value>ToolStripMenuItemMessageTemplate</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemMessageTemplate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;工具ToolStripMenuItem.Name" xml:space="preserve">
+    <value>工具ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;工具ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemEbayFees.Name" xml:space="preserve">
+    <value>ToolStripMenuItemEbayFees</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemEbayFees.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;帮助ToolStripMenuItem.Name" xml:space="preserve">
+    <value>帮助ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;帮助ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemAbout.Name" xml:space="preserve">
+    <value>ToolStripMenuItemAbout</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemReplyMessage.Name" xml:space="preserve">
+    <value>toolStripMenuItemReplyMessage</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemReplyMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewTransactionDetail.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewTransactionDetail</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewTransactionDetail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewTransactionMessage.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewTransactionMessage</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewTransactionMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSendMessage.Name" xml:space="preserve">
+    <value>ToolStripMenuItemSendMessage</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSendMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemAddRelationToItem.Name" xml:space="preserve">
+    <value>ToolStripMenuItemAddRelationToItem</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemAddRelationToItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewItem.Name" xml:space="preserve">
+    <value>ToolStripMenuItemViewItem</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemViewItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSelectShippingService.Name" xml:space="preserve">
+    <value>ToolStripMenuItemSelectShippingService</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSelectShippingService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemMarkAsShipped.Name" xml:space="preserve">
+    <value>ToolStripMenuItemMarkAsShipped</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemMarkAsShipped.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemUploadTrackingNum.Name" xml:space="preserve">
+    <value>ToolStripMenuItemUploadTrackingNum</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemUploadTrackingNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemLeaveFeedback.Name" xml:space="preserve">
+    <value>ToolStripMenuItemLeaveFeedback</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemLeaveFeedback.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSetShippingCost.Name" xml:space="preserve">
+    <value>ToolStripMenuItemSetShippingCost</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemSetShippingCost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateDeliveryNoteFromOrders.Name" xml:space="preserve">
+    <value>ToolStripMenuItemCreateDeliveryNoteFromOrders</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemCreateDeliveryNoteFromOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemMergeOrders.Name" xml:space="preserve">
+    <value>ToolStripMenuItemMergeOrders</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemMergeOrders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

@@ -34,8 +34,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.textBoxToken = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.buttonFinish = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -44,88 +44,62 @@
             // 
             // buttonGetTokenStep1
             // 
-            this.buttonGetTokenStep1.Location = new System.Drawing.Point(120, 24);
+            resources.ApplyResources(this.buttonGetTokenStep1, "buttonGetTokenStep1");
             this.buttonGetTokenStep1.Name = "buttonGetTokenStep1";
-            this.buttonGetTokenStep1.Size = new System.Drawing.Size(286, 38);
-            this.buttonGetTokenStep1.TabIndex = 0;
-            this.buttonGetTokenStep1.Text = "第一步：登录ebay完成确认";
             this.buttonGetTokenStep1.UseVisualStyleBackColor = true;
             this.buttonGetTokenStep1.Click += new System.EventHandler(this.buttonGetTokenStep1_Click);
             // 
             // buttonGetTokenStep2
             // 
-            this.buttonGetTokenStep2.Enabled = false;
-            this.buttonGetTokenStep2.Location = new System.Drawing.Point(120, 135);
+            resources.ApplyResources(this.buttonGetTokenStep2, "buttonGetTokenStep2");
             this.buttonGetTokenStep2.Name = "buttonGetTokenStep2";
-            this.buttonGetTokenStep2.Size = new System.Drawing.Size(286, 38);
-            this.buttonGetTokenStep2.TabIndex = 1;
-            this.buttonGetTokenStep2.Text = "第二步：等待10秒，点击此按钮获得token";
             this.buttonGetTokenStep2.UseVisualStyleBackColor = true;
             this.buttonGetTokenStep2.Click += new System.EventHandler(this.buttonGetTokenStep2_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::EbayMaster.Properties.Resources.downarrow;
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(229, 68);
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(69, 61);
-            this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::EbayMaster.Properties.Resources.downarrow;
-            this.pictureBox2.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.InitialImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(229, 182);
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(69, 61);
-            this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.textBoxToken);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(28, 263);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(470, 168);
-            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 23);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 12);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "token";
             // 
             // textBoxToken
             // 
-            this.textBoxToken.Location = new System.Drawing.Point(47, 23);
-            this.textBoxToken.Multiline = true;
+            resources.ApplyResources(this.textBoxToken, "textBoxToken");
             this.textBoxToken.Name = "textBoxToken";
             this.textBoxToken.ReadOnly = true;
-            this.textBoxToken.Size = new System.Drawing.Size(404, 127);
-            this.textBoxToken.TabIndex = 3;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // buttonFinish
             // 
-            this.buttonFinish.Location = new System.Drawing.Point(226, 437);
+            resources.ApplyResources(this.buttonFinish, "buttonFinish");
             this.buttonFinish.Name = "buttonFinish";
-            this.buttonFinish.Size = new System.Drawing.Size(75, 23);
-            this.buttonFinish.TabIndex = 5;
-            this.buttonFinish.Text = "完成";
             this.buttonFinish.UseVisualStyleBackColor = true;
             this.buttonFinish.Click += new System.EventHandler(this.buttonFinish_Click);
             // 
             // FrmAccountGetToken
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(526, 471);
             this.Controls.Add(this.buttonFinish);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox2);
@@ -133,7 +107,7 @@
             this.Controls.Add(this.buttonGetTokenStep2);
             this.Controls.Add(this.buttonGetTokenStep1);
             this.Name = "FrmAccountGetToken";
-            this.Text = "获得Token";
+            this.Load += new System.EventHandler(this.FrmAccountGetToken_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox1.ResumeLayout(false);

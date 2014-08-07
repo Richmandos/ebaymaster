@@ -68,5 +68,10 @@ namespace EbayMaster
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
+
+        private void FrmAccountGetToken_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

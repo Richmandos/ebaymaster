@@ -82,5 +82,10 @@ namespace EbayMaster
                 CreateNewItemStockInNote();
 
         }
+
+        private void FrmEditItemStockInNote_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

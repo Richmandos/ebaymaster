@@ -507,5 +507,10 @@ namespace EbayMaster
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

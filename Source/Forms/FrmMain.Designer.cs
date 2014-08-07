@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonExportEbayCVS = new System.Windows.Forms.Button();
             this.buttonExportSelectedToExcel = new System.Windows.Forms.Button();
@@ -150,77 +151,52 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.dateTimePickerStartTime);
-            this.panel1.Location = new System.Drawing.Point(12, 41);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(190, 597);
-            this.panel1.TabIndex = 6;
             // 
             // buttonExportEbayCVS
             // 
-            this.buttonExportEbayCVS.Location = new System.Drawing.Point(23, 259);
+            resources.ApplyResources(this.buttonExportEbayCVS, "buttonExportEbayCVS");
             this.buttonExportEbayCVS.Name = "buttonExportEbayCVS";
-            this.buttonExportEbayCVS.Size = new System.Drawing.Size(121, 27);
-            this.buttonExportEbayCVS.TabIndex = 15;
-            this.buttonExportEbayCVS.Text = "导出ebay cvs格式";
             this.buttonExportEbayCVS.UseVisualStyleBackColor = true;
             this.buttonExportEbayCVS.Click += new System.EventHandler(this.buttonExportEbayCVS_Click);
             // 
             // buttonExportSelectedToExcel
             // 
-            this.buttonExportSelectedToExcel.Location = new System.Drawing.Point(24, 207);
+            resources.ApplyResources(this.buttonExportSelectedToExcel, "buttonExportSelectedToExcel");
             this.buttonExportSelectedToExcel.Name = "buttonExportSelectedToExcel";
-            this.buttonExportSelectedToExcel.Size = new System.Drawing.Size(121, 27);
-            this.buttonExportSelectedToExcel.TabIndex = 11;
-            this.buttonExportSelectedToExcel.Text = "导出4PX xls格式";
             this.buttonExportSelectedToExcel.UseVisualStyleBackColor = true;
             this.buttonExportSelectedToExcel.Click += new System.EventHandler(this.buttonExportSelectedToExcel_Click);
             // 
             // buttonSyncEbayData
             // 
             this.buttonSyncEbayData.BackColor = System.Drawing.Color.Beige;
-            this.buttonSyncEbayData.Location = new System.Drawing.Point(44, 17);
+            resources.ApplyResources(this.buttonSyncEbayData, "buttonSyncEbayData");
             this.buttonSyncEbayData.Name = "buttonSyncEbayData";
-            this.buttonSyncEbayData.Size = new System.Drawing.Size(101, 27);
-            this.buttonSyncEbayData.TabIndex = 4;
-            this.buttonSyncEbayData.Text = "下载ebay数据";
             this.buttonSyncEbayData.UseVisualStyleBackColor = false;
             this.buttonSyncEbayData.Click += new System.EventHandler(this.buttonSyncEbayData_Click);
             // 
             // dateTimePickerEndTime
             // 
-            this.dateTimePickerEndTime.CustomFormat = "yyyy-MM-dd HH:mm:ss";
+            resources.ApplyResources(this.dateTimePickerEndTime, "dateTimePickerEndTime");
             this.dateTimePickerEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerEndTime.Location = new System.Drawing.Point(23, 123);
             this.dateTimePickerEndTime.Name = "dateTimePickerEndTime";
-            this.dateTimePickerEndTime.Size = new System.Drawing.Size(142, 21);
-            this.dateTimePickerEndTime.TabIndex = 3;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 98);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 12);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "结束时间";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 56);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 12);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "开始时间";
             // 
             // dateTimePickerStartTime
             // 
-            this.dateTimePickerStartTime.CustomFormat = "yyyy-MM-dd HH:mm:ss";
+            resources.ApplyResources(this.dateTimePickerStartTime, "dateTimePickerStartTime");
             this.dateTimePickerStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePickerStartTime.Location = new System.Drawing.Point(23, 74);
             this.dateTimePickerStartTime.Name = "dateTimePickerStartTime";
-            this.dateTimePickerStartTime.Size = new System.Drawing.Size(142, 21);
-            this.dateTimePickerStartTime.TabIndex = 0;
             // 
             // tabControlEbayMaster
             // 
@@ -228,11 +204,9 @@
             this.tabControlEbayMaster.Controls.Add(this.tabPageSelling);
             this.tabControlEbayMaster.Controls.Add(this.tabPageMessages);
             this.tabControlEbayMaster.Controls.Add(this.tabPagePostSale);
-            this.tabControlEbayMaster.Location = new System.Drawing.Point(218, 41);
+            resources.ApplyResources(this.tabControlEbayMaster, "tabControlEbayMaster");
             this.tabControlEbayMaster.Name = "tabControlEbayMaster";
             this.tabControlEbayMaster.SelectedIndex = 0;
-            this.tabControlEbayMaster.Size = new System.Drawing.Size(1114, 601);
-            this.tabControlEbayMaster.TabIndex = 13;
             this.tabControlEbayMaster.SelectedIndexChanged += new System.EventHandler(this.tabControlEbayMaster_SelectedIndexChanged);
             // 
             // tabPageOrder
@@ -246,87 +220,56 @@
             this.tabPageOrder.Controls.Add(this.buttonOrderNextPage);
             this.tabPageOrder.Controls.Add(this.panel2);
             this.tabPageOrder.Controls.Add(this.dataGridViewAllOrders);
-            this.tabPageOrder.Location = new System.Drawing.Point(4, 22);
+            resources.ApplyResources(this.tabPageOrder, "tabPageOrder");
             this.tabPageOrder.Name = "tabPageOrder";
-            this.tabPageOrder.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageOrder.Size = new System.Drawing.Size(1106, 575);
-            this.tabPageOrder.TabIndex = 1;
-            this.tabPageOrder.Text = "订单处理";
             this.tabPageOrder.UseVisualStyleBackColor = true;
             // 
             // radioButtonDeliveredOrders
             // 
-            this.radioButtonDeliveredOrders.AutoSize = true;
-            this.radioButtonDeliveredOrders.Location = new System.Drawing.Point(858, 18);
+            resources.ApplyResources(this.radioButtonDeliveredOrders, "radioButtonDeliveredOrders");
             this.radioButtonDeliveredOrders.Name = "radioButtonDeliveredOrders";
-            this.radioButtonDeliveredOrders.Size = new System.Drawing.Size(59, 16);
-            this.radioButtonDeliveredOrders.TabIndex = 21;
-            this.radioButtonDeliveredOrders.Text = "已发货";
             this.radioButtonDeliveredOrders.UseVisualStyleBackColor = true;
             this.radioButtonDeliveredOrders.CheckedChanged += new System.EventHandler(this.radioButtonOrders_CheckedChanged);
             // 
             // radioButtonPendingOrders
             // 
-            this.radioButtonPendingOrders.AutoSize = true;
+            resources.ApplyResources(this.radioButtonPendingOrders, "radioButtonPendingOrders");
             this.radioButtonPendingOrders.Checked = true;
-            this.radioButtonPendingOrders.Location = new System.Drawing.Point(761, 18);
             this.radioButtonPendingOrders.Name = "radioButtonPendingOrders";
-            this.radioButtonPendingOrders.Size = new System.Drawing.Size(59, 16);
-            this.radioButtonPendingOrders.TabIndex = 20;
             this.radioButtonPendingOrders.TabStop = true;
-            this.radioButtonPendingOrders.Text = "未处理";
             this.radioButtonPendingOrders.UseVisualStyleBackColor = true;
             this.radioButtonPendingOrders.CheckedChanged += new System.EventHandler(this.radioButtonOrders_CheckedChanged);
             // 
             // buttonOrderLastPage
             // 
-            this.buttonOrderLastPage.Location = new System.Drawing.Point(731, 516);
+            resources.ApplyResources(this.buttonOrderLastPage, "buttonOrderLastPage");
             this.buttonOrderLastPage.Name = "buttonOrderLastPage";
-            this.buttonOrderLastPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonOrderLastPage.TabIndex = 19;
-            this.buttonOrderLastPage.Text = "最后页";
             this.buttonOrderLastPage.UseVisualStyleBackColor = true;
             this.buttonOrderLastPage.Click += new System.EventHandler(this.buttonOrderLastPage_Click);
             // 
             // buttonOrderFirstPage
             // 
-            this.buttonOrderFirstPage.Enabled = false;
-            this.buttonOrderFirstPage.Location = new System.Drawing.Point(269, 516);
+            resources.ApplyResources(this.buttonOrderFirstPage, "buttonOrderFirstPage");
             this.buttonOrderFirstPage.Name = "buttonOrderFirstPage";
-            this.buttonOrderFirstPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonOrderFirstPage.TabIndex = 18;
-            this.buttonOrderFirstPage.Text = "第一页";
             this.buttonOrderFirstPage.UseVisualStyleBackColor = true;
             this.buttonOrderFirstPage.Click += new System.EventHandler(this.buttonOrderFirstPage_Click);
             // 
             // labelOrderPage
             // 
-            this.labelOrderPage.AutoSize = true;
-            this.labelOrderPage.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelOrderPage.Location = new System.Drawing.Point(486, 521);
+            resources.ApplyResources(this.labelOrderPage, "labelOrderPage");
             this.labelOrderPage.Name = "labelOrderPage";
-            this.labelOrderPage.Size = new System.Drawing.Size(103, 12);
-            this.labelOrderPage.TabIndex = 16;
-            this.labelOrderPage.Text = "labelOrderPage";
             // 
             // buttonOrderPrevPage
             // 
-            this.buttonOrderPrevPage.Enabled = false;
-            this.buttonOrderPrevPage.Location = new System.Drawing.Point(373, 516);
+            resources.ApplyResources(this.buttonOrderPrevPage, "buttonOrderPrevPage");
             this.buttonOrderPrevPage.Name = "buttonOrderPrevPage";
-            this.buttonOrderPrevPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonOrderPrevPage.TabIndex = 15;
-            this.buttonOrderPrevPage.Text = "上一页";
             this.buttonOrderPrevPage.UseVisualStyleBackColor = true;
             this.buttonOrderPrevPage.Click += new System.EventHandler(this.buttonOrderPrevPage_Click);
             // 
             // buttonOrderNextPage
             // 
-            this.buttonOrderNextPage.Location = new System.Drawing.Point(616, 516);
+            resources.ApplyResources(this.buttonOrderNextPage, "buttonOrderNextPage");
             this.buttonOrderNextPage.Name = "buttonOrderNextPage";
-            this.buttonOrderNextPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonOrderNextPage.TabIndex = 14;
-            this.buttonOrderNextPage.Text = "下一页";
             this.buttonOrderNextPage.UseVisualStyleBackColor = true;
             this.buttonOrderNextPage.Click += new System.EventHandler(this.buttonOrderNextPage_Click);
             // 
@@ -339,70 +282,48 @@
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(15, 6);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(709, 32);
-            this.panel2.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(199, 14);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 12);
-            this.label5.TabIndex = 8;
             // 
             // label8
             // 
             this.label8.BackColor = System.Drawing.Color.LightGreen;
-            this.label8.Location = new System.Drawing.Point(320, 14);
+            resources.ApplyResources(this.label8, "label8");
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 12);
-            this.label8.TabIndex = 12;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(276, 14);
+            resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(41, 12);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "已发货";
             // 
             // label6
             // 
             this.label6.BackColor = System.Drawing.Color.Gray;
-            this.label6.Location = new System.Drawing.Point(77, 14);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(34, 12);
-            this.label6.TabIndex = 10;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(33, 14);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 12);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "未付款";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(155, 14);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 12);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "未发货";
             // 
             // dataGridViewAllOrders
             // 
             this.dataGridViewAllOrders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewAllOrders.Location = new System.Drawing.Point(15, 44);
+            resources.ApplyResources(this.dataGridViewAllOrders, "dataGridViewAllOrders");
             this.dataGridViewAllOrders.Name = "dataGridViewAllOrders";
             this.dataGridViewAllOrders.RowTemplate.Height = 23;
-            this.dataGridViewAllOrders.Size = new System.Drawing.Size(1069, 466);
-            this.dataGridViewAllOrders.TabIndex = 0;
             this.dataGridViewAllOrders.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewAllOrders_CellClick);
             this.dataGridViewAllOrders.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewAllOrders_DataBindingComplete);
             this.dataGridViewAllOrders.MouseUp += new System.Windows.Forms.MouseEventHandler(this.dataGridViewAllOrders_MouseUp);
@@ -410,12 +331,8 @@
             // tabPageSelling
             // 
             this.tabPageSelling.Controls.Add(this.groupBox1);
-            this.tabPageSelling.Location = new System.Drawing.Point(4, 22);
+            resources.ApplyResources(this.tabPageSelling, "tabPageSelling");
             this.tabPageSelling.Name = "tabPageSelling";
-            this.tabPageSelling.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSelling.Size = new System.Drawing.Size(1106, 575);
-            this.tabPageSelling.TabIndex = 0;
-            this.tabPageSelling.Text = "销售概况";
             this.tabPageSelling.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -426,107 +343,75 @@
             this.groupBox1.Controls.Add(this.buttonListingPrevPage);
             this.groupBox1.Controls.Add(this.buttonListingNextPage);
             this.groupBox1.Controls.Add(this.dataGridViewActiveListing);
-            this.groupBox1.Location = new System.Drawing.Point(17, 14);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1083, 524);
-            this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "在售商品";
             // 
             // buttonListingLastPage
             // 
-            this.buttonListingLastPage.Location = new System.Drawing.Point(689, 499);
+            resources.ApplyResources(this.buttonListingLastPage, "buttonListingLastPage");
             this.buttonListingLastPage.Name = "buttonListingLastPage";
-            this.buttonListingLastPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonListingLastPage.TabIndex = 21;
-            this.buttonListingLastPage.Text = "最后页";
             this.buttonListingLastPage.UseVisualStyleBackColor = true;
             this.buttonListingLastPage.Click += new System.EventHandler(this.buttonListingLastPage_Click);
             // 
             // buttonListingFirstPage
             // 
-            this.buttonListingFirstPage.Location = new System.Drawing.Point(227, 499);
+            resources.ApplyResources(this.buttonListingFirstPage, "buttonListingFirstPage");
             this.buttonListingFirstPage.Name = "buttonListingFirstPage";
-            this.buttonListingFirstPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonListingFirstPage.TabIndex = 20;
-            this.buttonListingFirstPage.Text = "第一页";
             this.buttonListingFirstPage.UseVisualStyleBackColor = true;
             this.buttonListingFirstPage.Click += new System.EventHandler(this.buttonListingFirstPage_Click);
             // 
             // labelListingPage
             // 
-            this.labelListingPage.AutoSize = true;
-            this.labelListingPage.Location = new System.Drawing.Point(448, 506);
+            resources.ApplyResources(this.labelListingPage, "labelListingPage");
             this.labelListingPage.Name = "labelListingPage";
-            this.labelListingPage.Size = new System.Drawing.Size(101, 12);
-            this.labelListingPage.TabIndex = 19;
-            this.labelListingPage.Text = "labelListingPage";
             // 
             // buttonListingPrevPage
             // 
-            this.buttonListingPrevPage.Location = new System.Drawing.Point(333, 499);
+            resources.ApplyResources(this.buttonListingPrevPage, "buttonListingPrevPage");
             this.buttonListingPrevPage.Name = "buttonListingPrevPage";
-            this.buttonListingPrevPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonListingPrevPage.TabIndex = 18;
-            this.buttonListingPrevPage.Text = "上一页";
             this.buttonListingPrevPage.UseVisualStyleBackColor = true;
             this.buttonListingPrevPage.Click += new System.EventHandler(this.buttonListingPrevPage_Click);
             // 
             // buttonListingNextPage
             // 
-            this.buttonListingNextPage.Location = new System.Drawing.Point(578, 499);
+            resources.ApplyResources(this.buttonListingNextPage, "buttonListingNextPage");
             this.buttonListingNextPage.Name = "buttonListingNextPage";
-            this.buttonListingNextPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonListingNextPage.TabIndex = 17;
-            this.buttonListingNextPage.Text = "下一页";
             this.buttonListingNextPage.UseVisualStyleBackColor = true;
             this.buttonListingNextPage.Click += new System.EventHandler(this.buttonListingNextPage_Click);
             // 
             // dataGridViewActiveListing
             // 
             this.dataGridViewActiveListing.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewActiveListing.Location = new System.Drawing.Point(12, 19);
+            resources.ApplyResources(this.dataGridViewActiveListing, "dataGridViewActiveListing");
             this.dataGridViewActiveListing.Name = "dataGridViewActiveListing";
             this.dataGridViewActiveListing.RowTemplate.Height = 23;
-            this.dataGridViewActiveListing.Size = new System.Drawing.Size(1065, 474);
-            this.dataGridViewActiveListing.TabIndex = 0;
             this.dataGridViewActiveListing.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewActiveListing_DataBindingComplete);
             // 
             // tabPageMessages
             // 
             this.tabPageMessages.Controls.Add(this.pagedDgvMessages);
             this.tabPageMessages.Controls.Add(this.tabControlMessage);
-            this.tabPageMessages.Location = new System.Drawing.Point(4, 22);
+            resources.ApplyResources(this.tabPageMessages, "tabPageMessages");
             this.tabPageMessages.Name = "tabPageMessages";
-            this.tabPageMessages.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageMessages.Size = new System.Drawing.Size(1106, 575);
-            this.tabPageMessages.TabIndex = 2;
-            this.tabPageMessages.Text = "消息处理";
             this.tabPageMessages.UseVisualStyleBackColor = true;
             // 
             // pagedDgvMessages
             // 
-            this.pagedDgvMessages.Location = new System.Drawing.Point(3, 25);
+            resources.ApplyResources(this.pagedDgvMessages, "pagedDgvMessages");
             this.pagedDgvMessages.Name = "pagedDgvMessages";
-            this.pagedDgvMessages.Size = new System.Drawing.Size(543, 492);
-            this.pagedDgvMessages.TabIndex = 4;
             // 
             // tabControlMessage
             // 
             this.tabControlMessage.Controls.Add(this.tabPageAllMessage);
-            this.tabControlMessage.Location = new System.Drawing.Point(552, 25);
+            resources.ApplyResources(this.tabControlMessage, "tabControlMessage");
             this.tabControlMessage.Name = "tabControlMessage";
             this.tabControlMessage.SelectedIndex = 0;
-            this.tabControlMessage.Size = new System.Drawing.Size(532, 496);
-            this.tabControlMessage.TabIndex = 3;
             // 
             // tabPageAllMessage
             // 
-            this.tabPageAllMessage.Location = new System.Drawing.Point(4, 22);
+            resources.ApplyResources(this.tabPageAllMessage, "tabPageAllMessage");
             this.tabPageAllMessage.Name = "tabPageAllMessage";
-            this.tabPageAllMessage.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageAllMessage.Size = new System.Drawing.Size(524, 470);
-            this.tabPageAllMessage.TabIndex = 0;
             this.tabPageAllMessage.UseVisualStyleBackColor = true;
             // 
             // tabPagePostSale
@@ -538,74 +423,49 @@
             this.tabPagePostSale.Controls.Add(this.buttonPostSaleNextPage);
             this.tabPagePostSale.Controls.Add(this.dataGridViewPostSale);
             this.tabPagePostSale.Controls.Add(this.panel3);
-            this.tabPagePostSale.Location = new System.Drawing.Point(4, 22);
+            resources.ApplyResources(this.tabPagePostSale, "tabPagePostSale");
             this.tabPagePostSale.Name = "tabPagePostSale";
-            this.tabPagePostSale.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPagePostSale.Size = new System.Drawing.Size(1106, 575);
-            this.tabPagePostSale.TabIndex = 3;
-            this.tabPagePostSale.Text = "售后跟踪";
             this.tabPagePostSale.UseVisualStyleBackColor = true;
             // 
             // buttonPostSaleLastPage
             // 
-            this.buttonPostSaleLastPage.Location = new System.Drawing.Point(733, 516);
+            resources.ApplyResources(this.buttonPostSaleLastPage, "buttonPostSaleLastPage");
             this.buttonPostSaleLastPage.Name = "buttonPostSaleLastPage";
-            this.buttonPostSaleLastPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonPostSaleLastPage.TabIndex = 24;
-            this.buttonPostSaleLastPage.Text = "最后页";
             this.buttonPostSaleLastPage.UseVisualStyleBackColor = true;
             this.buttonPostSaleLastPage.Click += new System.EventHandler(this.buttonPostSaleLastPage_Click);
             // 
             // buttonPostSaleFirstPage
             // 
-            this.buttonPostSaleFirstPage.Enabled = false;
-            this.buttonPostSaleFirstPage.Location = new System.Drawing.Point(271, 516);
+            resources.ApplyResources(this.buttonPostSaleFirstPage, "buttonPostSaleFirstPage");
             this.buttonPostSaleFirstPage.Name = "buttonPostSaleFirstPage";
-            this.buttonPostSaleFirstPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonPostSaleFirstPage.TabIndex = 23;
-            this.buttonPostSaleFirstPage.Text = "第一页";
             this.buttonPostSaleFirstPage.UseVisualStyleBackColor = true;
             this.buttonPostSaleFirstPage.Click += new System.EventHandler(this.buttonPostSaleFirstPage_Click);
             // 
             // labelPostSalePage
             // 
-            this.labelPostSalePage.AutoSize = true;
-            this.labelPostSalePage.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.labelPostSalePage.Location = new System.Drawing.Point(498, 521);
+            resources.ApplyResources(this.labelPostSalePage, "labelPostSalePage");
             this.labelPostSalePage.Name = "labelPostSalePage";
-            this.labelPostSalePage.Size = new System.Drawing.Size(124, 12);
-            this.labelPostSalePage.TabIndex = 22;
-            this.labelPostSalePage.Text = "labelPostSalePage";
             // 
             // buttonPostSalePrevPage
             // 
-            this.buttonPostSalePrevPage.Enabled = false;
-            this.buttonPostSalePrevPage.Location = new System.Drawing.Point(375, 516);
+            resources.ApplyResources(this.buttonPostSalePrevPage, "buttonPostSalePrevPage");
             this.buttonPostSalePrevPage.Name = "buttonPostSalePrevPage";
-            this.buttonPostSalePrevPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonPostSalePrevPage.TabIndex = 21;
-            this.buttonPostSalePrevPage.Text = "上一页";
             this.buttonPostSalePrevPage.UseVisualStyleBackColor = true;
             this.buttonPostSalePrevPage.Click += new System.EventHandler(this.buttonPostSalePrevPage_Click);
             // 
             // buttonPostSaleNextPage
             // 
-            this.buttonPostSaleNextPage.Location = new System.Drawing.Point(618, 516);
+            resources.ApplyResources(this.buttonPostSaleNextPage, "buttonPostSaleNextPage");
             this.buttonPostSaleNextPage.Name = "buttonPostSaleNextPage";
-            this.buttonPostSaleNextPage.Size = new System.Drawing.Size(75, 23);
-            this.buttonPostSaleNextPage.TabIndex = 20;
-            this.buttonPostSaleNextPage.Text = "下一页";
             this.buttonPostSaleNextPage.UseVisualStyleBackColor = true;
             this.buttonPostSaleNextPage.Click += new System.EventHandler(this.buttonPostSaleNextPage_Click);
             // 
             // dataGridViewPostSale
             // 
             this.dataGridViewPostSale.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewPostSale.Location = new System.Drawing.Point(15, 44);
+            resources.ApplyResources(this.dataGridViewPostSale, "dataGridViewPostSale");
             this.dataGridViewPostSale.Name = "dataGridViewPostSale";
             this.dataGridViewPostSale.RowTemplate.Height = 23;
-            this.dataGridViewPostSale.Size = new System.Drawing.Size(1069, 466);
-            this.dataGridViewPostSale.TabIndex = 11;
             this.dataGridViewPostSale.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewPostSale_CellMouseDoubleClick);
             this.dataGridViewPostSale.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridViewPostSale_DataBindingComplete);
             this.dataGridViewPostSale.MouseUp += new System.Windows.Forms.MouseEventHandler(this.dataGridViewPostSale_MouseUp);
@@ -619,61 +479,41 @@
             this.panel3.Controls.Add(this.label19);
             this.panel3.Controls.Add(this.label20);
             this.panel3.Controls.Add(this.label21);
-            this.panel3.Location = new System.Drawing.Point(15, 6);
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(439, 32);
-            this.panel3.TabIndex = 10;
             // 
             // label16
             // 
             this.label16.BackColor = System.Drawing.Color.Goldenrod;
-            this.label16.Location = new System.Drawing.Point(336, 14);
+            resources.ApplyResources(this.label16, "label16");
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(34, 12);
-            this.label16.TabIndex = 16;
             // 
             // label17
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(277, 14);
+            resources.ApplyResources(this.label17, "label17");
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(53, 12);
-            this.label17.TabIndex = 15;
-            this.label17.Text = "已回消息";
             // 
             // label18
             // 
             this.label18.BackColor = System.Drawing.Color.Yellow;
-            this.label18.Location = new System.Drawing.Point(217, 14);
+            resources.ApplyResources(this.label18, "label18");
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(34, 12);
-            this.label18.TabIndex = 14;
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(158, 14);
+            resources.ApplyResources(this.label19, "label19");
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(53, 12);
-            this.label19.TabIndex = 13;
-            this.label19.Text = "未读消息";
             // 
             // label20
             // 
             this.label20.BackColor = System.Drawing.Color.LightGreen;
-            this.label20.Location = new System.Drawing.Point(81, 14);
+            resources.ApplyResources(this.label20, "label20");
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(34, 12);
-            this.label20.TabIndex = 12;
             // 
             // label21
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(37, 14);
+            resources.ApplyResources(this.label21, "label21");
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(41, 12);
-            this.label21.TabIndex = 11;
-            this.label21.Text = "已询问";
             // 
             // contextMenuStripPostSale
             // 
@@ -681,36 +521,31 @@
             this.ToolStripMenuItemViewMessage,
             this.ToolStripMenuItemSendMessageToBuyer});
             this.contextMenuStripPostSale.Name = "contextMenuStripPostSale";
-            this.contextMenuStripPostSale.Size = new System.Drawing.Size(137, 48);
+            resources.ApplyResources(this.contextMenuStripPostSale, "contextMenuStripPostSale");
             this.contextMenuStripPostSale.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripPostSale_Opening);
             // 
             // ToolStripMenuItemViewMessage
             // 
             this.ToolStripMenuItemViewMessage.Name = "ToolStripMenuItemViewMessage";
-            this.ToolStripMenuItemViewMessage.Size = new System.Drawing.Size(136, 22);
-            this.ToolStripMenuItemViewMessage.Text = "查看消息";
+            resources.ApplyResources(this.ToolStripMenuItemViewMessage, "ToolStripMenuItemViewMessage");
             this.ToolStripMenuItemViewMessage.Click += new System.EventHandler(this.ToolStripMenuItemViewMessage_Click);
             // 
             // ToolStripMenuItemSendMessageToBuyer
             // 
             this.ToolStripMenuItemSendMessageToBuyer.Name = "ToolStripMenuItemSendMessageToBuyer";
-            this.ToolStripMenuItemSendMessageToBuyer.Size = new System.Drawing.Size(136, 22);
-            this.ToolStripMenuItemSendMessageToBuyer.Text = "给买家写信";
+            resources.ApplyResources(this.ToolStripMenuItemSendMessageToBuyer, "ToolStripMenuItemSendMessageToBuyer");
             this.ToolStripMenuItemSendMessageToBuyer.Click += new System.EventHandler(this.ToolStripMenuItemSendMessageToBuyer_Click);
             // 
             // menuStripEbayMaster
             // 
             this.menuStripEbayMaster.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemItemMenu,
             this.ToolStripMenuItemSourcingAndDispatching,
+            this.ToolStripMenuItemItemMenu,
             this.ToolStripMenuItemSystemSettings,
             this.工具ToolStripMenuItem,
             this.帮助ToolStripMenuItem});
-            this.menuStripEbayMaster.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.menuStripEbayMaster, "menuStripEbayMaster");
             this.menuStripEbayMaster.Name = "menuStripEbayMaster";
-            this.menuStripEbayMaster.Size = new System.Drawing.Size(1359, 25);
-            this.menuStripEbayMaster.TabIndex = 17;
-            this.menuStripEbayMaster.Text = "menuStrip1";
             // 
             // ToolStripMenuItemItemMenu
             // 
@@ -724,63 +559,53 @@
             this.ToolStripMenuItemCreateSourcingNote,
             this.ToolStripMenuItemViewSourcingNote});
             this.ToolStripMenuItemItemMenu.Name = "ToolStripMenuItemItemMenu";
-            this.ToolStripMenuItemItemMenu.Size = new System.Drawing.Size(68, 21);
-            this.ToolStripMenuItemItemMenu.Text = "商品管理";
+            resources.ApplyResources(this.ToolStripMenuItemItemMenu, "ToolStripMenuItemItemMenu");
             // 
             // ToolStripMenuItemCategory
             // 
             this.ToolStripMenuItemCategory.Name = "ToolStripMenuItemCategory";
-            this.ToolStripMenuItemCategory.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemCategory.Text = "商品类别管理";
+            resources.ApplyResources(this.ToolStripMenuItemCategory, "ToolStripMenuItemCategory");
             this.ToolStripMenuItemCategory.Click += new System.EventHandler(this.ToolStripMenuItemCategory_Click);
             // 
             // ToolStripMenuItemItem
             // 
             this.ToolStripMenuItemItem.Name = "ToolStripMenuItemItem";
-            this.ToolStripMenuItemItem.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemItem.Text = "商品管理";
+            resources.ApplyResources(this.ToolStripMenuItemItem, "ToolStripMenuItemItem");
             this.ToolStripMenuItemItem.Click += new System.EventHandler(this.ToolStripMenuItemItem_Click);
             // 
             // ToolStripMenuItemGroupItem
             // 
             this.ToolStripMenuItemGroupItem.Name = "ToolStripMenuItemGroupItem";
-            this.ToolStripMenuItemGroupItem.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemGroupItem.Text = "组合商品管理";
-            this.ToolStripMenuItemGroupItem.Visible = false;
+            resources.ApplyResources(this.ToolStripMenuItemGroupItem, "ToolStripMenuItemGroupItem");
             // 
             // ToolStripMenuItemViewItemStat
             // 
             this.ToolStripMenuItemViewItemStat.Name = "ToolStripMenuItemViewItemStat";
-            this.ToolStripMenuItemViewItemStat.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemViewItemStat.Text = "查看所有商品";
+            resources.ApplyResources(this.ToolStripMenuItemViewItemStat, "ToolStripMenuItemViewItemStat");
             this.ToolStripMenuItemViewItemStat.Click += new System.EventHandler(this.ToolStripMenuItemViewItemStat_Click);
             // 
             // ToolStripMenuItemCreateSupplier
             // 
             this.ToolStripMenuItemCreateSupplier.Name = "ToolStripMenuItemCreateSupplier";
-            this.ToolStripMenuItemCreateSupplier.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemCreateSupplier.Text = "创建供应商";
+            resources.ApplyResources(this.ToolStripMenuItemCreateSupplier, "ToolStripMenuItemCreateSupplier");
             this.ToolStripMenuItemCreateSupplier.Click += new System.EventHandler(this.ToolStripMenuItemCreateSupplier_Click);
             // 
             // ToolStripMenuItemViewSupplier
             // 
             this.ToolStripMenuItemViewSupplier.Name = "ToolStripMenuItemViewSupplier";
-            this.ToolStripMenuItemViewSupplier.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemViewSupplier.Text = "查看供应商";
+            resources.ApplyResources(this.ToolStripMenuItemViewSupplier, "ToolStripMenuItemViewSupplier");
             this.ToolStripMenuItemViewSupplier.Click += new System.EventHandler(this.ToolStripMenuItemViewSupplier_Click);
             // 
             // ToolStripMenuItemCreateSourcingNote
             // 
             this.ToolStripMenuItemCreateSourcingNote.Name = "ToolStripMenuItemCreateSourcingNote";
-            this.ToolStripMenuItemCreateSourcingNote.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemCreateSourcingNote.Text = "创建采购单";
+            resources.ApplyResources(this.ToolStripMenuItemCreateSourcingNote, "ToolStripMenuItemCreateSourcingNote");
             this.ToolStripMenuItemCreateSourcingNote.Click += new System.EventHandler(this.ToolStripMenuItemCreateSourcingNote_Click);
             // 
             // ToolStripMenuItemViewSourcingNote
             // 
             this.ToolStripMenuItemViewSourcingNote.Name = "ToolStripMenuItemViewSourcingNote";
-            this.ToolStripMenuItemViewSourcingNote.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemViewSourcingNote.Text = "查看采购单";
+            resources.ApplyResources(this.ToolStripMenuItemViewSourcingNote, "ToolStripMenuItemViewSourcingNote");
             this.ToolStripMenuItemViewSourcingNote.Click += new System.EventHandler(this.ToolStripMenuItemViewSourcingNote_Click);
             // 
             // ToolStripMenuItemSourcingAndDispatching
@@ -791,35 +616,30 @@
             this.ToolStripMenuItemCreateDeliveryNote,
             this.ToolStripMenuItemViewDeliveryNote});
             this.ToolStripMenuItemSourcingAndDispatching.Name = "ToolStripMenuItemSourcingAndDispatching";
-            this.ToolStripMenuItemSourcingAndDispatching.Size = new System.Drawing.Size(92, 21);
-            this.ToolStripMenuItemSourcingAndDispatching.Text = "进货发货管理";
+            resources.ApplyResources(this.ToolStripMenuItemSourcingAndDispatching, "ToolStripMenuItemSourcingAndDispatching");
             // 
             // ToolStripMenuItemCreateItemStockInNote
             // 
             this.ToolStripMenuItemCreateItemStockInNote.Name = "ToolStripMenuItemCreateItemStockInNote";
-            this.ToolStripMenuItemCreateItemStockInNote.Size = new System.Drawing.Size(136, 22);
-            this.ToolStripMenuItemCreateItemStockInNote.Text = "创建入库单";
+            resources.ApplyResources(this.ToolStripMenuItemCreateItemStockInNote, "ToolStripMenuItemCreateItemStockInNote");
             this.ToolStripMenuItemCreateItemStockInNote.Click += new System.EventHandler(this.ToolStripMenuItemCreateItemStockInNote_Click);
             // 
             // ToolStripMenuItemViewItemStockInNote
             // 
             this.ToolStripMenuItemViewItemStockInNote.Name = "ToolStripMenuItemViewItemStockInNote";
-            this.ToolStripMenuItemViewItemStockInNote.Size = new System.Drawing.Size(136, 22);
-            this.ToolStripMenuItemViewItemStockInNote.Text = "查看入库单";
+            resources.ApplyResources(this.ToolStripMenuItemViewItemStockInNote, "ToolStripMenuItemViewItemStockInNote");
             this.ToolStripMenuItemViewItemStockInNote.Click += new System.EventHandler(this.ToolStripMenuItemViewItemStockInNote_Click);
             // 
             // ToolStripMenuItemCreateDeliveryNote
             // 
             this.ToolStripMenuItemCreateDeliveryNote.Name = "ToolStripMenuItemCreateDeliveryNote";
-            this.ToolStripMenuItemCreateDeliveryNote.Size = new System.Drawing.Size(136, 22);
-            this.ToolStripMenuItemCreateDeliveryNote.Text = "创建发货单";
+            resources.ApplyResources(this.ToolStripMenuItemCreateDeliveryNote, "ToolStripMenuItemCreateDeliveryNote");
             this.ToolStripMenuItemCreateDeliveryNote.Click += new System.EventHandler(this.ToolStripMenuItemDeliveryNote_Click);
             // 
             // ToolStripMenuItemViewDeliveryNote
             // 
             this.ToolStripMenuItemViewDeliveryNote.Name = "ToolStripMenuItemViewDeliveryNote";
-            this.ToolStripMenuItemViewDeliveryNote.Size = new System.Drawing.Size(136, 22);
-            this.ToolStripMenuItemViewDeliveryNote.Text = "查看发货单";
+            resources.ApplyResources(this.ToolStripMenuItemViewDeliveryNote, "ToolStripMenuItemViewDeliveryNote");
             this.ToolStripMenuItemViewDeliveryNote.Click += new System.EventHandler(this.ToolStripMenuItemViewDeliveryNote_Click);
             // 
             // ToolStripMenuItemSystemSettings
@@ -829,28 +649,24 @@
             this.ToolStripMenuItemAccountSettings,
             this.ToolStripMenuItemMessageTemplate});
             this.ToolStripMenuItemSystemSettings.Name = "ToolStripMenuItemSystemSettings";
-            this.ToolStripMenuItemSystemSettings.Size = new System.Drawing.Size(68, 21);
-            this.ToolStripMenuItemSystemSettings.Text = "系统设置";
+            resources.ApplyResources(this.ToolStripMenuItemSystemSettings, "ToolStripMenuItemSystemSettings");
             // 
             // ToolStripMenuItemDBConnSettings
             // 
             this.ToolStripMenuItemDBConnSettings.Name = "ToolStripMenuItemDBConnSettings";
-            this.ToolStripMenuItemDBConnSettings.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemDBConnSettings.Text = "数据库设置";
+            resources.ApplyResources(this.ToolStripMenuItemDBConnSettings, "ToolStripMenuItemDBConnSettings");
             this.ToolStripMenuItemDBConnSettings.Click += new System.EventHandler(this.ToolStripMenuItemDBConnSettings_Click);
             // 
             // ToolStripMenuItemAccountSettings
             // 
             this.ToolStripMenuItemAccountSettings.Name = "ToolStripMenuItemAccountSettings";
-            this.ToolStripMenuItemAccountSettings.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemAccountSettings.Text = "账号管理";
+            resources.ApplyResources(this.ToolStripMenuItemAccountSettings, "ToolStripMenuItemAccountSettings");
             this.ToolStripMenuItemAccountSettings.Click += new System.EventHandler(this.ToolStripMenuItemAccountSettings_Click);
             // 
             // ToolStripMenuItemMessageTemplate
             // 
             this.ToolStripMenuItemMessageTemplate.Name = "ToolStripMenuItemMessageTemplate";
-            this.ToolStripMenuItemMessageTemplate.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemMessageTemplate.Text = "消息模板管理";
+            resources.ApplyResources(this.ToolStripMenuItemMessageTemplate, "ToolStripMenuItemMessageTemplate");
             this.ToolStripMenuItemMessageTemplate.Click += new System.EventHandler(this.ToolStripMenuItemMessageTemplate_Click);
             // 
             // 工具ToolStripMenuItem
@@ -858,28 +674,24 @@
             this.工具ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripMenuItemEbayFees});
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
-            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.工具ToolStripMenuItem.Text = "工具";
+            resources.ApplyResources(this.工具ToolStripMenuItem, "工具ToolStripMenuItem");
             // 
             // ToolStripMenuItemEbayFees
             // 
             this.ToolStripMenuItemEbayFees.Name = "ToolStripMenuItemEbayFees";
-            this.ToolStripMenuItemEbayFees.Size = new System.Drawing.Size(128, 22);
-            this.ToolStripMenuItemEbayFees.Text = "ebay费率";
+            resources.ApplyResources(this.ToolStripMenuItemEbayFees, "ToolStripMenuItemEbayFees");
             // 
             // 帮助ToolStripMenuItem
             // 
             this.帮助ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripMenuItemAbout});
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.帮助ToolStripMenuItem.Text = "帮助";
+            resources.ApplyResources(this.帮助ToolStripMenuItem, "帮助ToolStripMenuItem");
             // 
             // ToolStripMenuItemAbout
             // 
             this.ToolStripMenuItemAbout.Name = "ToolStripMenuItemAbout";
-            this.ToolStripMenuItemAbout.Size = new System.Drawing.Size(100, 22);
-            this.ToolStripMenuItemAbout.Text = "关于";
+            resources.ApplyResources(this.ToolStripMenuItemAbout, "ToolStripMenuItemAbout");
             this.ToolStripMenuItemAbout.Click += new System.EventHandler(this.ToolStripMenuItemAbout_Click);
             // 
             // contextMenuStripMessage
@@ -887,13 +699,12 @@
             this.contextMenuStripMessage.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItemReplyMessage});
             this.contextMenuStripMessage.Name = "contextMenuStripPostSale";
-            this.contextMenuStripMessage.Size = new System.Drawing.Size(137, 26);
+            resources.ApplyResources(this.contextMenuStripMessage, "contextMenuStripMessage");
             // 
             // toolStripMenuItemReplyMessage
             // 
             this.toolStripMenuItemReplyMessage.Name = "toolStripMenuItemReplyMessage";
-            this.toolStripMenuItemReplyMessage.Size = new System.Drawing.Size(136, 22);
-            this.toolStripMenuItemReplyMessage.Text = "给买家回信";
+            resources.ApplyResources(this.toolStripMenuItemReplyMessage, "toolStripMenuItemReplyMessage");
             // 
             // contextMenuStripTransaction
             // 
@@ -911,99 +722,84 @@
             this.ToolStripMenuItemCreateDeliveryNoteFromOrders,
             this.ToolStripMenuItemMergeOrders});
             this.contextMenuStripTransaction.Name = "contextMenuStripTransaction";
-            this.contextMenuStripTransaction.Size = new System.Drawing.Size(149, 268);
+            resources.ApplyResources(this.contextMenuStripTransaction, "contextMenuStripTransaction");
             this.contextMenuStripTransaction.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStripTransaction_Opening);
             // 
             // ToolStripMenuItemViewTransactionDetail
             // 
             this.ToolStripMenuItemViewTransactionDetail.Name = "ToolStripMenuItemViewTransactionDetail";
-            this.ToolStripMenuItemViewTransactionDetail.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemViewTransactionDetail.Text = "查看详情";
+            resources.ApplyResources(this.ToolStripMenuItemViewTransactionDetail, "ToolStripMenuItemViewTransactionDetail");
             // 
             // ToolStripMenuItemViewTransactionMessage
             // 
             this.ToolStripMenuItemViewTransactionMessage.Name = "ToolStripMenuItemViewTransactionMessage";
-            this.ToolStripMenuItemViewTransactionMessage.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemViewTransactionMessage.Text = "查看消息";
+            resources.ApplyResources(this.ToolStripMenuItemViewTransactionMessage, "ToolStripMenuItemViewTransactionMessage");
             // 
             // ToolStripMenuItemSendMessage
             // 
             this.ToolStripMenuItemSendMessage.Name = "ToolStripMenuItemSendMessage";
-            this.ToolStripMenuItemSendMessage.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemSendMessage.Text = "发消息";
+            resources.ApplyResources(this.ToolStripMenuItemSendMessage, "ToolStripMenuItemSendMessage");
             // 
             // ToolStripMenuItemAddRelationToItem
             // 
             this.ToolStripMenuItemAddRelationToItem.Name = "ToolStripMenuItemAddRelationToItem";
-            this.ToolStripMenuItemAddRelationToItem.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemAddRelationToItem.Text = "关联商品";
+            resources.ApplyResources(this.ToolStripMenuItemAddRelationToItem, "ToolStripMenuItemAddRelationToItem");
             this.ToolStripMenuItemAddRelationToItem.Click += new System.EventHandler(this.ToolStripMenuItemAddRelationToItem_Click);
             // 
             // ToolStripMenuItemViewItem
             // 
             this.ToolStripMenuItemViewItem.Name = "ToolStripMenuItemViewItem";
-            this.ToolStripMenuItemViewItem.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemViewItem.Text = "查看商品";
+            resources.ApplyResources(this.ToolStripMenuItemViewItem, "ToolStripMenuItemViewItem");
             // 
             // ToolStripMenuItemSelectShippingService
             // 
             this.ToolStripMenuItemSelectShippingService.Name = "ToolStripMenuItemSelectShippingService";
-            this.ToolStripMenuItemSelectShippingService.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemSelectShippingService.Text = "选择物流方式";
+            resources.ApplyResources(this.ToolStripMenuItemSelectShippingService, "ToolStripMenuItemSelectShippingService");
             this.ToolStripMenuItemSelectShippingService.Click += new System.EventHandler(this.ToolStripMenuItemSelectShippingService_Click);
             // 
             // ToolStripMenuItemMarkAsShipped
             // 
             this.ToolStripMenuItemMarkAsShipped.Name = "ToolStripMenuItemMarkAsShipped";
-            this.ToolStripMenuItemMarkAsShipped.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemMarkAsShipped.Text = "标记已发货";
+            resources.ApplyResources(this.ToolStripMenuItemMarkAsShipped, "ToolStripMenuItemMarkAsShipped");
             this.ToolStripMenuItemMarkAsShipped.Click += new System.EventHandler(this.ToolStripMenuItemMarkAsShipped_Click);
             // 
             // ToolStripMenuItemUploadTrackingNum
             // 
             this.ToolStripMenuItemUploadTrackingNum.Name = "ToolStripMenuItemUploadTrackingNum";
-            this.ToolStripMenuItemUploadTrackingNum.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemUploadTrackingNum.Text = "上传跟踪号";
+            resources.ApplyResources(this.ToolStripMenuItemUploadTrackingNum, "ToolStripMenuItemUploadTrackingNum");
             this.ToolStripMenuItemUploadTrackingNum.Click += new System.EventHandler(this.ToolStripMenuItemUploadTrackingNum_Click);
             // 
             // ToolStripMenuItemLeaveFeedback
             // 
             this.ToolStripMenuItemLeaveFeedback.Name = "ToolStripMenuItemLeaveFeedback";
-            this.ToolStripMenuItemLeaveFeedback.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemLeaveFeedback.Text = "留好评";
+            resources.ApplyResources(this.ToolStripMenuItemLeaveFeedback, "ToolStripMenuItemLeaveFeedback");
             this.ToolStripMenuItemLeaveFeedback.Click += new System.EventHandler(this.ToolStripMenuItemLeaveFeedback_Click);
             // 
             // ToolStripMenuItemSetShippingCost
             // 
             this.ToolStripMenuItemSetShippingCost.Name = "ToolStripMenuItemSetShippingCost";
-            this.ToolStripMenuItemSetShippingCost.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemSetShippingCost.Text = "设置运费";
+            resources.ApplyResources(this.ToolStripMenuItemSetShippingCost, "ToolStripMenuItemSetShippingCost");
             // 
             // ToolStripMenuItemCreateDeliveryNoteFromOrders
             // 
             this.ToolStripMenuItemCreateDeliveryNoteFromOrders.Name = "ToolStripMenuItemCreateDeliveryNoteFromOrders";
-            this.ToolStripMenuItemCreateDeliveryNoteFromOrders.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemCreateDeliveryNoteFromOrders.Text = "创建发货单";
+            resources.ApplyResources(this.ToolStripMenuItemCreateDeliveryNoteFromOrders, "ToolStripMenuItemCreateDeliveryNoteFromOrders");
             this.ToolStripMenuItemCreateDeliveryNoteFromOrders.Click += new System.EventHandler(this.ToolStripMenuItemCreateDeliveryNoteFromOrders_Click);
             // 
             // ToolStripMenuItemMergeOrders
             // 
             this.ToolStripMenuItemMergeOrders.Name = "ToolStripMenuItemMergeOrders";
-            this.ToolStripMenuItemMergeOrders.Size = new System.Drawing.Size(148, 22);
-            this.ToolStripMenuItemMergeOrders.Text = "合并订单";
-            this.ToolStripMenuItemMergeOrders.Visible = false;
+            resources.ApplyResources(this.ToolStripMenuItemMergeOrders, "ToolStripMenuItemMergeOrders");
             this.ToolStripMenuItemMergeOrders.Click += new System.EventHandler(this.ToolStripMenuItemMergeOrders_Click);
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1359, 654);
             this.Controls.Add(this.menuStripEbayMaster);
             this.Controls.Add(this.tabControlEbayMaster);
             this.Controls.Add(this.panel1);
             this.Name = "FrmMain";
-            this.Text = "ebay管家婆 小卖家版 v1.0";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             this.Shown += new System.EventHandler(this.FrmMain_Shown);
             this.panel1.ResumeLayout(false);

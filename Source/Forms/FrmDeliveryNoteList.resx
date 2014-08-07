@@ -120,7 +120,69 @@
   <metadata name="contextMenuStripDeliveryNote.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="contextMenuStripDeliveryNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripDeliveryNote.Name" xml:space="preserve">
+    <value>contextMenuStripDeliveryNote</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStripDeliveryNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolStripMenuItemDelDeliveryNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 22</value>
+  </data>
+  <data name="ToolStripMenuItemDelDeliveryNote.Text" xml:space="preserve">
+    <value>删除发货单</value>
+  </data>
+  <data name="pagedDgvDeliveryNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, -2</value>
+  </data>
+  <data name="pagedDgvDeliveryNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>795, 488</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pagedDgvDeliveryNote.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pagedDgvDeliveryNote.Name" xml:space="preserve">
+    <value>pagedDgvDeliveryNote</value>
+  </data>
+  <data name="&gt;&gt;pagedDgvDeliveryNote.Type" xml:space="preserve">
+    <value>EbayMaster.PagedDataGridView, EbayMaster, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagedDgvDeliveryNote.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pagedDgvDeliveryNote.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>37</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>820, 494</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>View Invoice (Edit: Double Click / Enter deleted: Right Click)</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemDelDeliveryNote.Name" xml:space="preserve">
+    <value>ToolStripMenuItemDelDeliveryNote</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemDelDeliveryNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmDeliveryNoteList</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

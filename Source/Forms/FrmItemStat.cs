@@ -79,5 +79,10 @@ namespace EbayMaster
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
+        private void pagedDgvItem_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

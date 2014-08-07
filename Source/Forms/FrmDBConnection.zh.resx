@@ -117,72 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="contextMenuStripItemStockInNote.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ToolStripMenuItemDelItemStockInNote.Size" type="System.Drawing.Size, System.Drawing">
-    <value>134, 22</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
   </data>
-  <data name="ToolStripMenuItemDelItemStockInNote.Text" xml:space="preserve">
-    <value>删除入库单</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>数据库类型</value>
   </data>
-  <data name="contextMenuStripItemStockInNote.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 26</value>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
   </data>
-  <data name="&gt;&gt;contextMenuStripItemStockInNote.Name" xml:space="preserve">
-    <value>contextMenuStripItemStockInNote</value>
+  <data name="label5.Text" xml:space="preserve">
+    <value>SQL Server用户名</value>
   </data>
-  <data name="&gt;&gt;contextMenuStripItemStockInNote.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
   </data>
-  <data name="pagedDgvItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 2</value>
+  <data name="label4.Text" xml:space="preserve">
+    <value>SQL Server数据库库名</value>
   </data>
-  <data name="pagedDgvItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>702, 496</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pagedDgvItem.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>SQL Server数据库地址</value>
   </data>
-  <data name="&gt;&gt;pagedDgvItem.Name" xml:space="preserve">
-    <value>pagedDgvItem</value>
+  <data name="buttonNavigateItemImage.Text" xml:space="preserve">
+    <value>浏览</value>
   </data>
-  <data name="&gt;&gt;pagedDgvItem.Type" xml:space="preserve">
-    <value>EbayMaster.PagedDataGridView, EbayMaster, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
   </data>
-  <data name="&gt;&gt;pagedDgvItem.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Access文件路径</value>
   </data>
-  <data name="&gt;&gt;pagedDgvItem.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>714, 511</value>
+  <data name="buttonSaveConfig.Text" xml:space="preserve">
+    <value>保存设置</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>View Receipt (delete: Right-click)</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItemDelItemStockInNote.Name" xml:space="preserve">
-    <value>ToolStripMenuItemDelItemStockInNote</value>
-  </data>
-  <data name="&gt;&gt;ToolStripMenuItemDelItemStockInNote.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmItemStockInNoteList</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>数据库连接设置</value>
   </data>
 </root>

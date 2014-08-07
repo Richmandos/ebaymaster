@@ -175,5 +175,10 @@ namespace EbayMaster
                 this.contextMenuStripDeliveryNote.Show(pagedDgvDeliveryNote.DgvData, new Point(e.X, e.Y));
             }
         }
+
+        private void pagedDgvDeliveryNote_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
