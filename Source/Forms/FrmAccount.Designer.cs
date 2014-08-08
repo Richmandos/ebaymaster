@@ -46,19 +46,19 @@
             this.btnAddOrUpdateAccount = new System.Windows.Forms.Button();
             this.buttonDelAccount = new System.Windows.Forms.Button();
             this.buttonGetToken = new System.Windows.Forms.Button();
+            this.buttonClose = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // listBoxAllAccounts
             // 
-            resources.ApplyResources(this.listBoxAllAccounts, "listBoxAllAccounts");
             this.listBoxAllAccounts.FormattingEnabled = true;
+            resources.ApplyResources(this.listBoxAllAccounts, "listBoxAllAccounts");
             this.listBoxAllAccounts.Name = "listBoxAllAccounts";
             this.listBoxAllAccounts.SelectedIndexChanged += new System.EventHandler(this.listBoxAllAccounts_SelectedIndexChanged);
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.textBoxPayPalPassword);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.textBoxPayPalUsername);
@@ -71,6 +71,7 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBoxEbayAccount);
             this.groupBox1.Controls.Add(this.label1);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -157,10 +158,18 @@
             this.buttonGetToken.UseVisualStyleBackColor = true;
             this.buttonGetToken.Click += new System.EventHandler(this.buttonGetToken_Click);
             // 
+            // buttonClose
+            // 
+            resources.ApplyResources(this.buttonClose, "buttonClose");
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
+            // 
             // FrmAccount
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.buttonGetToken);
             this.Controls.Add(this.buttonDelAccount);
             this.Controls.Add(this.btnAddOrUpdateAccount);
@@ -193,5 +202,6 @@
         private System.Windows.Forms.Button btnAddOrUpdateAccount;
         private System.Windows.Forms.Button buttonDelAccount;
         private System.Windows.Forms.Button buttonGetToken;
+        private System.Windows.Forms.Button buttonClose;
     }
 }

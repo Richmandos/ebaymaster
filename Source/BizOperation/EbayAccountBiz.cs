@@ -66,23 +66,24 @@ namespace EbayMaster
             localContext.SoapApiServerUrl = System.Configuration.ConfigurationManager.AppSettings.Get(AppSettingHelper.API_SERVER_URL);
             localContext.SignInUrl = System.Configuration.ConfigurationManager.AppSettings.Get(AppSettingHelper.SIGNIN_URL);
 
-            ConfirmIdentityCall apiCall = new ConfirmIdentityCall(localContext);
-            apiCall.SessionID = sessionId;
+            // First step: Fetch token
+            FetchTokenCall fetchTokenApiCall = new FetchTokenCall(localContext);
             try
             {
-                apiCall.ConfirmIdentity(sessionId);
-                userId = apiCall.UserID;
+                fetchTokenApiCall.FetchToken(sessionId);
+                token = fetchTokenApiCall.eBayToken;
             }
             catch (System.Exception)
             {
             }
 
-            FetchTokenCall fetchTokenApiCall = new FetchTokenCall(localContext);
-            apiCall.SessionID = sessionId;
-            try
+            // Second step: Get user name using token received in first step
+            localContext.ApiCredential.eBayToken = token;
+            ConfirmIdentityCall apiCall = new ConfirmIdentityCall(localContext);
+             try
             {
-                fetchTokenApiCall.FetchToken(sessionId);
-                token = fetchTokenApiCall.eBayToken;
+                apiCall.ConfirmIdentity(sessionId);
+                userId = apiCall.UserID;
             }
             catch (System.Exception)
             {

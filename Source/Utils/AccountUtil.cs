@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Windows.Forms;
 using System.Xml;
 using Samples.Helper;
 using eBay.Service.Core.Sdk;
+
 
 namespace EbayMaster
 {
@@ -62,8 +65,41 @@ namespace EbayMaster
             {
                 if (dirty)
                 {
-                    xmlDoc.Load(EbayConstants.SystemSettingsXmlPath);
-                    dirty = false;
+                    if (!File.Exists(EbayConstants.SystemSettingsXmlPath))
+                    {
+                        // Create new XML file with basic structure
+                        XmlTextWriter writer = new XmlTextWriter(EbayConstants.SystemSettingsXmlPath, Encoding.UTF8);
+                        writer.WriteStartDocument();
+                        writer.WriteStartElement("Settings");
+                        writer.WriteStartElement("DBConnection");
+                        writer.WriteStartElement("option");
+                        writer.WriteAttributeString("DBType" , "ACCESS");
+                        writer.WriteAttributeString("selected", "1");
+                        writer.WriteAttributeString("value" , "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=");
+                        writer.WriteEndElement();//option
+                        writer.WriteStartElement("option");
+                        writer.WriteAttributeString("DBType", "SQLSERVER");
+                        writer.WriteAttributeString("selected", "0");
+                        writer.WriteAttributeString("value", "Data Source=zhiwang,49172;Network Library=DBMSSOCN;Initial Catalog=ebaybachelor;User ID=sa;Password=;");
+                        writer.WriteEndElement();//option
+                        writer.WriteEndElement();//DBConnection
+                        writer.WriteStartElement("Accounts");
+                        writer.WriteEndElement();//Accounts
+                        writer.WriteEndElement();//Settings
+                        writer.WriteEndDocument();
+                        writer.Close(); 
+                    }
+                    try
+                    {
+                        xmlDoc.Load(EbayConstants.SystemSettingsXmlPath);
+                        dirty = false;
+                    }
+                    catch (XmlException exception)
+                    {
+                        MessageBox.Show(EbayConstants.SystemSettingsXmlPath + "Is not a valid XML File", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    
+                    
                 }
                 return xmlDoc;
             }

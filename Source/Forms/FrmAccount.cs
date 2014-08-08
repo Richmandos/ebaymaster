@@ -25,6 +25,11 @@ namespace EbayMaster
             {
                 this.listBoxAllAccounts.Items.Add(account);
             }
+            if (this.listBoxAllAccounts.Items.Count > 0)
+            {
+                //Select last entry
+                this.listBoxAllAccounts.SetSelected(this.listBoxAllAccounts.Items.Count - 1, true);
+            }
         }
 
         private void FrmAccount_Load(object sender, EventArgs e)
@@ -130,6 +135,11 @@ namespace EbayMaster
             {
                 LoadAllAccounts();
             }
+        }
+
+        private void buttonClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

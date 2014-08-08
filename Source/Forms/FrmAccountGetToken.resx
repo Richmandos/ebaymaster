@@ -359,7 +359,7 @@
     <value>1</value>
   </data>
   <data name="buttonFinish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 473</value>
+    <value>229, 473</value>
   </data>
   <data name="buttonFinish.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
